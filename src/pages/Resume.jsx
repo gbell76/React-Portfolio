@@ -1,7 +1,8 @@
 export default function Resume () {
     return(
         <>
-            <p>Download resume <a href=''>here</a></p>
+            <h2>Resume</h2>
+            <p>Download resume <a href='../../public/George Bell School Resume.docx' download>here</a></p>
             <h3>Front End Proficiencies</h3>
             <ul>
                 <li>Javascript</li>

@@ -9,6 +9,7 @@ import noteTaker from '../assets/NoteTaker.png'
 export default function Portfolio () {
     return(
         <>
+            <h2>Portfolio</h2>
             <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
                 <Project props={{gitHub: 'https://github.com/rbenjamin4/WishList', deployed: 'https://smart-wish-list.onrender.com/', name: 'Buy Me Things!', background: buyMeThings}} />
                 <Project props={{gitHub: 'https://github.com/cspecialblackberry/MediMinder-App', deployed: 'https://mediminder-e3e3cf63329a.herokuapp.com/', name: 'MediMinder', background: mediMinder}} />

@@ -3,10 +3,10 @@ import Nav from './NavTabs'
 const Header = () => {
     return(
         <>
-            <div className={'Header'} style={{justifyContent: 'space-between'}}>
+            <header style={{justifyContent: 'space-around', position: 'fixed', top: '0px', left: '0px', width: '100%'}}>
                 <h1>George Bell</h1>
                 <Nav />
-            </div>
+            </header>
         </>
     )
 }

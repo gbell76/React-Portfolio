@@ -31,7 +31,7 @@ export default function Contact () {
     }
 
     const checkMessage = () => {
-        if(name === ''){
+        if(message === ''){
             if(!error.includes('Message is a required field. ')){
                 setError(error => error + 'Message is a required field. ')
             }
@@ -49,9 +49,11 @@ export default function Contact () {
     }
 
     const clear = () => {
-        setName('')
-        setEmail('')
-        setMessage('')
+        if(name != '' && email.match(/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/) && message != ''){
+            setName('')
+            setEmail('')
+            setMessage('')
+        }
     }
 
     return(
